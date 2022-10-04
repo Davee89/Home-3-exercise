@@ -10,6 +10,7 @@
   --color-grey: #9497a1;
   --color-background: #f1f6fa;
   --color-red: #c14040;
+  --color-white: #ffffff;
 }
 body {
   font-family: "Manrope", sans-serif;
@@ -20,6 +21,7 @@ main {
 /*--------------HEADER---------------*/
 .header {
   height: 406px;
+  position: relative;
 }
 .header__nav {
   max-width: 1110px;
@@ -106,10 +108,13 @@ button {
 .button__outer {
   width: 140px;
   height: 140px;
-  background-color: var(--color-background);
-  border: 1px solid var(--color-background);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-white);
   border-radius: 70px;
   position: absolute;
+  margin-top: -70px;
+  margin-left: 1155px;
+  padding: 10px;
 }
 .button_middle {
   width: 120px;
@@ -118,7 +123,8 @@ button {
   border-radius: 60px;
   background-color: var(--color-primary);
   position: absolute;
-  margin: 10px;
+  margin-top: -60px;
+  margin-left: 1165px;
 }
 .button_inner {
   width: 104px;
@@ -126,7 +132,8 @@ button {
   border: 1px solid var(--color-helper-blue-3);
   border-radius: 52px;
   background-color: var(--color-primary);
-  margin: 18px;
+  margin-top: -52px;
+  margin-left: 1173px;
   position: absolute;
   color: var(--color-background);
 }
