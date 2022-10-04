@@ -20,7 +20,6 @@ main {
 /*--------------HEADER---------------*/
 .header {
   height: 406px;
-  border: 1px solid;
 }
 .header__nav {
   max-width: 1110px;
@@ -98,3 +97,36 @@ button {
   color: var(--color-background);
 }
 /*-----------------------------------*/
+/*-----------Section-1---------------*/
+.section-1 {
+  background-image: url(/images/img_11.png);
+  width: 1920px;
+  height: 590px;
+}
+.button__outer {
+  width: 140px;
+  height: 140px;
+  background-color: var(--color-background);
+  border: 1px solid var(--color-background);
+  border-radius: 70px;
+  position: absolute;
+}
+.button_middle {
+  width: 120px;
+  height: 120px;
+  border: 1px solid var(--color-background);
+  border-radius: 60px;
+  background-color: var(--color-primary);
+  position: absolute;
+  margin: 10px;
+}
+.button_inner {
+  width: 104px;
+  height: 104px;
+  border: 1px solid var(--color-helper-blue-3);
+  border-radius: 52px;
+  background-color: var(--color-primary);
+  margin: 18px;
+  position: absolute;
+  color: var(--color-background);
+}
